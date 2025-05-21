@@ -38,7 +38,7 @@
     letter-spacing: 1px;
     text-align: center;
     position: relative;
-    left: 47%;
+    left: 46.4%;
 }
 
 .navigator .fa-circle-arrow-left
@@ -87,15 +87,16 @@
     padding: 5px;
     top: 0%;
     background-color: white;
-    transition: 10ms;
+    transition: 100ms;
+    cursor: default;
 }
 
 .toc:hover
 {
-    transform: scale(1.00);
+    transform: scale(1.01);
 }
 
-.toctex
+.toctext
 {
     display: none;
 }
@@ -107,9 +108,10 @@
 
 .container
 {
-    text-align: center;
+    position: relative;
     font-family: 'Albertus', sans-serif;
     margin-top: 5%;
+    left: 46%;
 }
 
 .textcon
@@ -144,7 +146,7 @@
     text-decoration: none;
     justify-content: center; 
     align-items: center;
-    left: 43%;
+    left: 30%;
 }
 
 .next:hover
