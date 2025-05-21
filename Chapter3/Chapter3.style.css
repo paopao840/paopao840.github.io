@@ -132,7 +132,7 @@
 .next
 {
     display: flex;
-    position: relative;
+    position: absolute;
     margin-top: 2%;
     border: 1px solid;
     margin-bottom: 25px;
